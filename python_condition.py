@@ -28,11 +28,32 @@
 # for country in 'countries':
 #     print(country)
 
-countries = ['kor','usa','china']
-for country in countries:
-    if country == 'kor':
-        print('한글로 분석해주세요.')
-    elif country == 'usa':
-        print('영어로 분석해주세요.')
-    elif country == 'china':
-        print('중국어로 분석해주세요.')
+# countries = ['kor','usa','china']
+# for country in countries:
+#     if country == 'kor':
+#         print('한글로 분석해주세요.')
+#     elif country == 'usa':
+#         print('영어로 분석해주세요.')
+#     elif country == 'china':
+#         print('중국어로 분석해주세요.')
+# a = 0
+# while a < 5:
+#     a += 1
+#     print(a)
+# a = 0
+# for i in range(1,6):
+#     a += i
+# print(a)
+
+# i = 0
+# a = 0
+# while i < 6:
+#     a += i
+#     i += 1
+# print(a)
+
+for i in range(10):
+    if 3<=i<=5:        
+        continue
+    print(i)
+        
